@@ -4,5 +4,5 @@
 @="Mark as deleted"
 
 [HKEY_CLASSES_ROOT\*\shell\MarkDeleted\command]
-@="powershell.exe  -windowstyle hidden -file   C:\\Users\\<user>\\OneDrive\\dev\\media-importer\\src\\mark-deleted.ps1 \"%1\""
+@="powershell.exe  -windowstyle hidden -file   C:\\Users\\<USER>\\OneDrive\\dev\\media-importer\\src\\mark-deleted.ps1 \"%1\""
 

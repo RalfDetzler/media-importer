@@ -126,12 +126,12 @@ Class Synchronizer : FileWalker
 # Main program
 # ====================================================
 
-$global:fileIndex = $global:ht.ReadHash("$repoDir/fotoindex.csv")
+$global:fileIndex = $global:ht.ReadHash("$env:media_importer_data\fotoindex.csv")
 
 $synchronizer = [Synchronizer]::new($destinationDirName)
 $synchronizer.walk($startPath)
 
-$global:ht.WriteHash($global:fileIndex, "$repoDir/fotoindex.csv")
+$global:ht.WriteHash($global:fileIndex, "$env:media_importer_data\fotoindex.csv")
 
 Write-Host(-join($global:numFiles, " Dateien bearbeitet, ", $global:newFiles, " neue Files, ", $global:numIndexCorrection, " Indexkorrekturen"))
 Write-Output ("Fertig")

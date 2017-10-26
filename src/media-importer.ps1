@@ -248,9 +248,7 @@ Function getDirFromFriendlyName($dir) {
 #}
 
 
-$global:ignoreFileIndex = Get-Content "C:\Users\d020715\OneDrive\dev\media-importer\out\marked-for-deletion.csv"
-
-#$global:ignoreFileIndex = $global:ht.ReadHash("c:/users/d020715/pictures/.deleted/deleted.csv")
+$global:ignoreFileIndex = Get-Content "$env:media_importer_data\marked-for-deletion.csv"
 
 # Change to start folder
 #$root = changeDir($startPath)

@@ -46,7 +46,7 @@ $fileWalker.walk($startPath)
 
 Write-output (-join($global:num, " Dateien indiziert"))
 
-$global:ht.WriteHash($global:fileIndex, "$repoDir/fotoindex.csv")
+$global:ht.WriteHash($global:fileIndex, "$env:media_importer_data/fotoindex.csv")
 
 Write-Output ("")
 Write-Output ("Fertig")

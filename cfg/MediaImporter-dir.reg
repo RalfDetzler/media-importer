@@ -4,11 +4,11 @@
 @="Import Media"
 
 [HKEY_CLASSES_ROOT\Directory\shell\MediaImport\command]
-@="powershell.exe   -file   C:\\Users\\<user>\\OneDrive\\dev\\media-importer\\src\\media-importer.ps1 \"%1\""
+@="powershell.exe   -file   C:\\Users\\<USER>\\OneDrive\\dev\\media-importer\\src\\media-importer.ps1 \"%1\""
 
 [HKEY_CLASSES_ROOT\Folder\shell\MediaImport]
 @="Import Media"
 
 [HKEY_CLASSES_ROOT\Folder\shell\MediaImport\command]
-@="powershell.exe   -file   C:\\Users\\<user>\\OneDrive\\dev\\media-importer\\src\\media-importer.ps1 \"%1\""
+@="powershell.exe   -file   C:\\Users\\<USER>\\OneDrive\\dev\\media-importer\\src\\media-importer.ps1 \"%1\""
 
