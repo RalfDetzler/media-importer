@@ -185,7 +185,7 @@ Function getDirFromFriendlyName($dir) {
         $dir = $dir + "\"
     }
     
-    # path starts with \\Desktop\IGBN33983660A\
+    # path starts with \\Desktop\COMPUTERNAME\
     $elements = $dir -Split "\\"
     $dirString = -join("\\",$elements[2], "\", $elements[3])
 
