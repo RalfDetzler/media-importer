@@ -1,5 +1,6 @@
 # media-importer
-Smart import of media files from portable devices to the users windows photo library
+Smart import of media files from portable devices to the users windows photo library.
+**Experimental** Not yet ready
 
 Smart import of media files from 
   * phones, connected via USB (MTD device)
@@ -18,6 +19,9 @@ Media Importer provides two context menu entries in Windows Explorer.
     index for deleted files.
   * **ImportMedia** starts the import of media files on the selected folder
 
+## Setup
+  * In the Windows Registry files you have to adapt the path to the called scripts.
+  * Set the environment variable **media_importer_data** to a directory, where MediaImporter stores the index files for deleted files and the fotoindex.
 
 
 ## Erweiterungen:
