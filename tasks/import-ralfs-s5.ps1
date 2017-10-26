@@ -1,0 +1,5 @@
+../src/media-importer.ps1 "Ralf Detzler (Galaxy S5)\Phone\DCIM"
+../src/media-importer.ps1 "Ralf Detzler (Galaxy S5)\Card\DCIM"
+../src/media-importer.ps1 "Ralf Detzler (Galaxy S5)\Phone\Telegram"
+../src/media-importer.ps1 "Ralf Detzler (Galaxy S5)\Phone\WhatsApp\Media"
+../src/media-importer.ps1 "Ralf Detzler (Galaxy S5)\Phone\Pictures"	
