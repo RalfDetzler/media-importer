@@ -68,7 +68,7 @@ Function getDirFromGuid($dirString) {
 
 # Returns folder object for the given by friendly string
 Function getDirFromFriendlyName($dir) {
-    # path starts with \\Desktop\IGBN33983660A\
+    # path starts with \\Desktop\COMPUTERNAME
     $elements = $dir -Split "\\"
     $dirString = -join("\\",$elements[2], "\", $elements[3])
 
