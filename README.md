@@ -14,7 +14,7 @@ library (C:/Users/"user"/Pictures) based on year and month, e.g. C:/Uses/ralf/Pi
 Media Importer is aware of media files, that are already present in the target folders. It also 
 skips media files, that shall be ignored.
 
-For details also check the [Wiki].
+For details also check the [Wiki](https://github.com/RalfDetzler/media-importer/wiki).
 
 ## Integration in Windows Explorer
 Media Importer provides two context menu entries in Windows Explorer.
